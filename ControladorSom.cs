@@ -26,9 +26,9 @@ public class ControladorSom : MonoBehaviour
             muteImage.sprite = somDesligadoSprite;
         }
     }
-}
 
-public void VolumeMusical(float value)
-{
-    fundoMusical.volume = value;
+    public void VolumeMusical(float value)
+    {
+        fundoMusical.volume = value;
+    }
 }
